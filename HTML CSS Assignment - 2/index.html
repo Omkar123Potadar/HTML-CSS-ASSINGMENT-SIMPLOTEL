@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Restaurant</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            overflow: hidden;
+            background-color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: x-large;
+            display: flex;
+            align-items: center;
+            height: 80px;
+            position: relative;
+        }
+        .logo {
+            height: 6rem;
+        }
+        .icons {
+            position: absolute;
+            right: 20px;
+        }
+        nav a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .heroimg{
+            background-image: url('heroimg.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .card {
+            width: 500px;
+            height: 50px;
+            background: linear-gradient(to right, black, rgb(100, 98, 98));
+            border-radius: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 5px;
+            left: 30px;
+        }
+        .card h2 {
+            color: white;
+            font-size: xx-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .card1 {
+            display: flex;
+            background-color: rgb(181, 180, 178);
+            padding: 0 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 150%;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        .ambience{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .card2 {
+            width: 300px;
+            padding: 30px;
+            border-radius: 0;
+            margin: 0 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card2 img {
+            width: 100%;
+            border-radius: 0;
+        }
+        .card2 h2 {
+            display: flex;
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        .card2 p {
+            color: #666;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+        }
+        .card2 .btn {
+            width: 60%;
+            padding: 10px 0;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 0;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            margin-top: 10px;
+            align-self: flex-start;
+        }
+
+        .card2:nth-child(2) .btn {
+            align-self: center;
+        }
+
+        .card2:last-child .btn {
+            align-self: flex-end;
+        }
+        .hotel{
+            background-color: #d6d1d1;
+            padding-top: 80px;
+        }
+        .hotel h1 {
+            text-align: start;
+            margin-left: 12%;
+            font-family: Arial, Helvetica, sans-serif;        
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="phoenix-logo.png" alt="Logo" class="logo">
+        <a href="">Home</a>
+        <a href="">Order</a>
+        <a href="">Food</a>
+        <a href="">Restaurant</a>
+        <a href="">Testimonial</a>
+        <a href="">Contact us</a>
+        <div class="icons">
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+    </nav>
+    <div class="heroimg">
+        <div class="card">
+            <h2 class="card-title">LOREM IPSUM</h2> 
+        </div>
+    </div>
+
+   <div class="card1">
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, qui deserunt hic officiis laudantium modi aspernatur suscipit optio quasi atque non vel mollitia necessitatibus quos ratione repudiandae asperiores harum aut.</p>
+    </div>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, qui deserunt hic officiis laudantium modi aspernatur suscipit optio quasi atque non vel mollitia necessitatibus quos ratione repudiandae asperiores harum aut.</p>
+    </div>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, qui deserunt hic officiis laudantium modi aspernatur suscipit optio quasi atque non vel mollitia necessitatibus quos ratione repudiandae asperiores harum aut.</p>
+    </div>
+   </div>
+    
+
+   <div class="hotel">
+       <h1>Lorem Ipsum</h1>
+       <div  class="ambience">
+            <div class="card2">
+                <img src="rooms.jpg" alt="ROOMS">
+                <h2>Card Title 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo totam suscipit officia eligendi! Beatae cupiditate a fugit doloribus dignissimos id quisquam sit architecto. Alias, laudantium officia? Expedita, ex dolore.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="card2">
+                <img src="dining.jpg" alt="DINNING">
+                <h2 style="display: flex; justify-content: center;">Card Title 2</h2>
+                <p style="display: flex; text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae illo ut, soluta culpa eius veniam dicta! Expedita recusandae repellat pariatur, molestias, nihil voluptas soluta alias, vitae blanditiis minus harum veritatis.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="card2">
+                <img src="pool.jpg" alt="POOLS">
+                <h2  style="justify-content: flex-end; ">Card Title 3</h2>
+                <p style="display: flex; text-align: end;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis fugiat autem sapiente, illo ipsam, veniam eum facilis doloribus nostrum dolor. Minima voluptatum ex esse error, labore consequuntur dolorem minus!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+       </div>
+   </div>
+</body>
+</html>
